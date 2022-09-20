@@ -68,12 +68,12 @@ module.exports = (env, arg) => {
 
 
     plugins: [
-      new HotModuleReplacementPlugin(),
+     /*  new HotModuleReplacementPlugin(),
       new MFLiveReloadPlugin({
         port: 3001,
         container: "clothes",
         standalone: false,
-      }),
+      }), */
       new ModuleFederationPlugin({
         name: "register_page",
         filename: "remoteEntry.js",
