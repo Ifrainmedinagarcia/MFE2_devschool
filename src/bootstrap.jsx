@@ -10,7 +10,7 @@ root.render(
   <React.StrictMode>
     <HashRouter>
       <Header />
+      <App />
     </HashRouter>
-    <App />
   </React.StrictMode>
 );

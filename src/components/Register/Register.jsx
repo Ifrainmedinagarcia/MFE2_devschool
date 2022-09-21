@@ -60,7 +60,6 @@ const Register = () => {
       className='container__titles'
       container
       direction="column"
-      spacing={1}
       justifyContent="center"
       alignContent="center"
     >
